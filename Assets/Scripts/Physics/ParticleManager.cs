@@ -10,7 +10,7 @@ public class ParticleManager : MonoBehaviour
 
 	public List<Particle2D> mParticles = new List<Particle2D>();
 	public List<Rectangle> mRectangles = new List<Rectangle>();
-	List<Particle2D> mParticlesToDelete = new List<Particle2D>();
+	public List<Particle2D> mParticlesToDelete = new List<Particle2D>();
 
 	private void Awake()
 	{
