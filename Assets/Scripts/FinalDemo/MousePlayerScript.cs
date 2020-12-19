@@ -54,9 +54,9 @@ public class MousePlayerScript : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.Return))
         {
-            foreach(Particle2D particle in ParticleManager.Instance.mParticles)
+            foreach (Particle2D particle in ParticleManager.Instance.mParticles)
             {
-                ParticleManager.Instance.DeleteParticle(particle);
+                ParticleManager.Instance.mParticlesToDelete.Add(particle);
             }
         }
     }
@@ -78,9 +78,5 @@ public class MousePlayerScript : MonoBehaviour
         ProjectileData.DampingConstant = ballDampingConstant;
         ProjectileData.shouldIgnoreForces = ballShouldIgnoreForces;
         ParticleManager.Instance.mParticles.Add(ProjectileData);
-    }
-    void DeleteProjectile(Particle2D particle)
-    {
-        ParticleManager.Instance.DeleteParticle(particle);
     }
 }
