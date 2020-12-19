@@ -1,0 +1,2 @@
+C:\Users\Jonathan\Documents\Unity Projects\Game Physics Final Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\Unity Projects\Game Physics Final Project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
